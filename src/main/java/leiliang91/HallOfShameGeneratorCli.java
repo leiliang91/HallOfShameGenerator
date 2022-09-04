@@ -117,6 +117,7 @@ public class HallOfShameGeneratorCli
             trash.setAvatar(player.getAvatarfull());
             trash.setName(player.getPersonaname());
             trash.setReasons(trashes.getTrashesMap().get(player.getSteamid()).getReasons());
+            trash.setProfileUrl(player.getProfileurl());
 
             updatedTrashes.getTrashesMap().put(id, trash);
         }

@@ -10,4 +10,5 @@ public class Trash {
     private String name;
     private String avatar;
     private List<String> reasons;
+    private String profileUrl;
 }
